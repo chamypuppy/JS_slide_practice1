@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * { margin: 0 auto;}
+    .container {width: 700px; display: flex;}
+    .container .slider {width: 700px; height: 600px; display: flex;
+      align-items: center;
+    /* position: relative;  */ margin: 0 30px; overflow: hidden;}
+    /* .container .slider .img {} */
+    /* #slp {background-color: red; width: 200px; height: 200px;
+    position: absolute;} */
+    .container .slider img {width: 700px; height: auto;}
+    .container .left_btn, .container .right_btn {
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button class="left_btn">&lt;</button>
+    <div class="slider">
+    </div>
+    <button class="right_btn">&gt;</button>
+  </div>
+
+  <script src="./js/img.js"></script>
+  <script>
+    // const l_btn = document.querySelector(".left_btn");
+    // const r_btn = document.querySelector(".right_btn");
+    // const img = document.querySelectorAll("img");
+    // const sliders = document.querySelector("slider");
+    // const slp = document.getElementById("slp");
+
+    // function translateRed() {
+      // slp.style.transform = "translate(-100px)"
+    // }
+
+    // l_btn.addEventListener("click", translateRed)
+
+    // let imgIndex = 0;
+
+   
+    
+    // function showSlide(){
+    //   sliders.style.transform = "translate(-100px)";
+    // }
+
+    // r_btn.addEventListener("click", showSlide())
+    
+
+    // function showSlide(imgIndex){
+    //   if (imgIndex >= img.length) {
+    //     imgIndex = 0;
+    //   } else if (n < 0) {
+    //     imgIndex = img.length - 1;
+    //   }
+    // }
+
+    // showSlide(imgIndex)
+  </script>
+</body>
+</html>
